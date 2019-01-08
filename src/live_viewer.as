@@ -106,7 +106,7 @@ package
 				metaListener.onMetaData = received_Meta;
 				netStreamObj.client = metaListener;
 				
-				
+				netStreamObj.bufferTime = 1;
 				netStreamObj.play(stream_name);
 				netStreamObj.soundTransform = nsVol;
 				vid.attachNetStream(netStreamObj);
